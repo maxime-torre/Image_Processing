@@ -23,7 +23,7 @@ from skimage.util import crop
 ## 1 - Image sketching -------------------------------------------------------------------------------------------
 
 filename = r'jacob_collier.jpg'
-dirpath = r'C:/Users/torre/Documents/2A_Phelma_Partiel_S1/TP_traitement_image' # 
+dirpath = r'/TP_traitement_image' 
 filepath = join(dirpath, filename)
 print(filepath)
 

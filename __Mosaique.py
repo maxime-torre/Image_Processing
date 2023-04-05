@@ -25,7 +25,7 @@ from skimage.util import img_as_ubyte
 ## 1 - Image sketching -------------------------------------------------------------------------------------------
 
 filename = r'1.jpg'
-dirpath = r'C:/Users/torre/Documents/2A_Phelma_Partiel_S1/TP_traitement_image/input' # 
+dirpath = r'/input' 
 filepath = join(dirpath, filename)
 print(filepath)
 
@@ -67,7 +67,7 @@ for j in range (1,nb_image_data_base):
     L_color_img_data.append([R_moy, G_moy, B_moy])
 
 filename_3 = r'Rainbow.jpg'
-dirpath_3 = r'C:/Users/torre/Documents/2A_Phelma_Partiel_S1/TP_traitement_image/Target_images'
+dirpath_3 = r'/Target_images'
 filepath_3 = join(dirpath_3, filename_3)
 print(filepath_3)
 

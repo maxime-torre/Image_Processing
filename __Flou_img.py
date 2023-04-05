@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 
 filename_2 = r'Rainbow.jpg'
-dirpath_2 = r'C:/Users/torre/Documents/2A_Phelma_Partiel_S1/TP_traitement_image/Target_images'
+dirpath_2 = r'/Target_images'
 filepath_2 = join(dirpath_2, filename_2)
 print(filepath_2)
 
